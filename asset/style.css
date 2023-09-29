@@ -13,6 +13,7 @@ body {
   line-height: 1.65rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
+  color: #393d41;
 }
 
 h1,
@@ -27,5 +28,216 @@ h2 {
 }
 
 .banner {
-  background-image: url(/images/banner.jpg);
+  background-image: url(/asset/);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.65rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1,
+h2 {
+  line-height: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+}
+
+.intest-logo {
+  background-color: black;
+  text-align: center;
+}
+
+.intest-logo img {
+  width: 20rem;
+  margin: 5rem;
+}
+
+.banner {
+  background-image: url(/asset/banner.jpg);
+  width: 100%;
+  height: 47rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.banner h1 {
+  padding: 2em 3em 0em;
+  font-size: 4rem;
+  line-height: 1em;
+}
+
+.banner p {
+  margin: 0px 3rem;
+  font-size: 2em;
+  line-height: 2em;
+  padding-top: 3rem;
+}
+
+button {
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 6rem;
+  width: 18rem;
+  border-radius: 10px;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.main-1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-1 h2,
+p {
+  margin: 0px 3rem;
+  font-size: 2em;
+  line-height: 2em;
+  padding-top: 3rem;
+}
+
+.img-1 {
+  border-radius: 240px;
+  text-align: center;
+}
+
+.img-1 img {
+  border-radius: 240px;
+}
+
+.warranty h2 {
+  color: white;
+  padding: 1em 1em 0em;
+  font-size: 4rem;
+  line-height: 1em;
+  padding-top: 8rem;
+}
+
+.warranty {
+  color: white;
+  background-color: #e22d0e;
+  height: 46rem;
+  margin-top: 10rem;
+}
+
+span-1 {
+  padding-top: 8rem;
+  font-style: italic;
+}
+
+span-2 p {
+  padding: 5rem 18rem;
+  font-style: italic;
+  padding: 8rem 18rem;
+}
+
+.foto-1 {
+  text-align: center;
+  border: 1px solid #dee1e3;
+  margin: 72px;
+}
+
+.foto-1 img {
+  width: 52rem;
+}
+
+.foto-1 h2 {
+  padding-top: 4rem;
+}
+
+.foto-1 p {
+  margin-bottom: 5rem;
+  font-size: 0.9em;
+}
+
+.foto-2 {
+  text-align: center;
+  border: 1px solid #dee1e3;
+  margin: 72px;
+}
+
+.foto-2 img {
+  width: 52rem;
+}
+
+.foto-2 h2 {
+  padding-top: 4rem;
+}
+
+.foto-2 p {
+  margin-bottom: 5rem;
+  padding: 3rem 2rem;
+  font-size: 0.9em;
+}
+
+.foto-3 {
+  text-align: center;
+  border: 1px solid #dee1e3;
+  margin: 72px 72px 123px;
+}
+
+.foto-3 img {
+  width: 52rem;
+}
+
+.foto-3 h2 {
+  padding-top: 4rem;
+}
+
+.foto-3 p {
+  margin-bottom: 5rem;
+  font-size: 0.9em;
+  padding: 3rem;
+}
+
+footer {
+  background-color: #25a2c3;
+  height: 40rem;
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+footer h2 {
+  color: white;
+  padding: 0em 1em 0em;
+  font-size: 4rem;
+  line-height: 1em;
+  margin-bottom: 2rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  padding-top: 0;
+}
+
+a p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.copyright {
+  margin: 5rem 7rem;
+  border-top: 1px solid white;
+  padding-top: 2rem;
 }
