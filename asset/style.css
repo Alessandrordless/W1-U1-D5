@@ -105,16 +105,16 @@ p {
   margin-top: 10rem;
 }
 
-.warranty-p {
-  margin: 0px 3rem;
-}
-
 .warranty-p p:first-child {
   font-style: italic;
 }
 
 .warranty p:last-child {
   padding: 1rem 0;
+}
+
+.warranty-p2 p {
+  margin: 3rem 16rem;
 }
 
 .foto-1 {
