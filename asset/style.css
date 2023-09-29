@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 *,
 *::after,
 *::before {
@@ -14,8 +16,6 @@ body {
 
 h1,
 h2 {
-  line-height: 1.5rem;
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #25a2c3;
 }
@@ -44,7 +44,7 @@ h2 {
   padding: 2em 3em 0em;
   font-size: 4rem;
   line-height: 1em;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .banner p {
@@ -56,23 +56,28 @@ h2 {
 
 button {
   background-color: #f04c2f;
-  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-align: center;
-  height: 6rem;
-  width: 18rem;
+  width: 19rem;
   border-radius: 10px;
-  margin-top: 4rem;
-  font-size: 2rem;
+  height: 11%;
+  margin-top: 3rem;
 }
 
-.main-1 {
+button a {
+  font-size: 3rem;
+  margin: 0em;
+  text-decoration: none;
+  color: white;
+}
+
+.article-1 {
   text-align: center;
   padding: 1rem;
 }
 
-.main-1 h2,
+.article-1 h2,
 p {
   margin: 0px 3rem;
   font-size: 2em;
@@ -117,17 +122,18 @@ p {
   margin: 3rem 16rem;
 }
 
-.foto-1 {
+.foto {
   text-align: center;
   border: 1px solid #dee1e3;
   margin: 72px;
 }
 
-.foto-1 img {
+.foto img {
   width: 52rem;
 }
 
-.foto-1 h2 {
+.foto h2 {
+  font-family: "Montserrat", sans-serif;
   padding-top: 4rem;
   margin: 0px 3rem;
   font-size: 2em;
@@ -135,62 +141,7 @@ p {
   padding-top: 3rem;
 }
 
-.foto-1 p {
-  margin-bottom: 5rem;
-  font-size: 0.9em;
-  margin: 0px 3rem;
-  font-size: 2em;
-  line-height: 2em;
-  padding-top: 3rem;
-}
-
-.foto-2 {
-  text-align: center;
-  border: 1px solid #dee1e3;
-  margin: 72px;
-}
-
-.foto-2 img {
-  width: 52rem;
-}
-
-.foto-2 h2 {
-  padding-top: 4rem;
-  margin: 0px 3rem;
-  font-size: 2em;
-  line-height: 2em;
-  padding-top: 3rem;
-}
-
-.foto-2 p {
-  margin-bottom: 5rem;
-  padding: 3rem 2rem;
-  font-size: 0.9em;
-  margin: 0px 3rem;
-  font-size: 2em;
-  line-height: 2em;
-  padding-top: 3rem;
-}
-
-.foto-3 {
-  text-align: center;
-  border: 1px solid #dee1e3;
-  margin: 72px 72px 123px;
-}
-
-.foto-3 img {
-  width: 52rem;
-}
-
-.foto-3 h2 {
-  padding-top: 4rem;
-  margin: 0px 3rem;
-  font-size: 2em;
-  line-height: 2em;
-  padding-top: 3rem;
-}
-
-.foto-3 p {
+.foto p {
   margin-bottom: 5rem;
   font-size: 0.9em;
   padding: 3rem;
@@ -209,6 +160,7 @@ footer {
 }
 
 footer h2 {
+  font-family: "Montserrat", sans-serif;
   color: white;
   padding: 0em 1em 0em;
   font-size: 4rem;
