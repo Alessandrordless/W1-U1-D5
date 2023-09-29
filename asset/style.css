@@ -16,6 +16,7 @@ h1,
 h2 {
   line-height: 1.5rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   color: #25a2c3;
 }
 
@@ -43,6 +44,7 @@ h2 {
   padding: 2em 3em 0em;
   font-size: 4rem;
   line-height: 1em;
+  font-family: "Montserrat";
 }
 
 .banner p {
@@ -93,6 +95,7 @@ p {
   font-size: 4rem;
   line-height: 1em;
   padding-top: 8rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .warranty {
@@ -102,15 +105,16 @@ p {
   margin-top: 10rem;
 }
 
-span-1 {
-  padding-top: 8rem;
+.warranty-p {
+  margin: 0px 3rem;
+}
+
+.warranty-p p:first-child {
   font-style: italic;
 }
 
-span-2 p {
-  padding: 5rem 18rem;
-  font-style: italic;
-  padding: 8rem 18rem;
+.warranty p:last-child {
+  padding: 1rem 0;
 }
 
 .foto-1 {
