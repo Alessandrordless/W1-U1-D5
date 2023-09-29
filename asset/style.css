@@ -31,7 +31,7 @@ h2 {
 }
 
 .banner {
-  background-image: url(/asset/banner.jpg);
+  background-image: url(./banner.jpg);
   width: 100%;
   height: 47rem;
   background-repeat: no-repeat;
