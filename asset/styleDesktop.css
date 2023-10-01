@@ -69,9 +69,9 @@ button a {
   margin-bottom: 10vh;
 }
 
-.middle img {
+.middle .round-pic {
   float: left;
-  width: 24%;
+  width: 23%;
   height: 14rem;
   border-radius: 140px;
   margin-left: 10%;
