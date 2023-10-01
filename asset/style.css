@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-*,
-*::after,
-*::before {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -18,6 +16,10 @@ h1,
 h2 {
   font-weight: bold;
   color: #25a2c3;
+}
+
+header {
+  width: 146vh;
 }
 
 .intest-logo {
@@ -70,6 +72,10 @@ button a {
   margin: 0em;
   text-decoration: none;
   color: white;
+}
+
+main {
+  width: 146vh;
 }
 
 .article-1 {
@@ -129,7 +135,7 @@ p {
 }
 
 .foto img {
-  width: 52rem;
+  width: 100%;
 }
 
 .foto h2 {
@@ -157,6 +163,7 @@ footer {
   color: white;
   text-align: center;
   padding-top: 4rem;
+  width: 146vh;
 }
 
 footer h2 {
