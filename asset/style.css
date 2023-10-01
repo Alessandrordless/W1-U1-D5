@@ -55,7 +55,7 @@ main {
   text-align: center;
 }
 
-main img {
+.img-1 img {
   width: 50%;
 }
 
@@ -97,10 +97,15 @@ main img {
   height: 68vh;
 }
 
+.foto img {
+  width: 100%;
+}
+
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
   text-align: center;
+  height: 40vh;
 }
 
 footer h2,
